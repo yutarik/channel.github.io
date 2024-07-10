@@ -1,0 +1,255 @@
+body{
+background-image: url(bgi.jpg);
+background-attachment: fixed;
+background-size:100%;
+font-family: 'Russo One', sans-serif;
+cursor: url("KU.ico"), pointer;
+border: 0px;
+padding: 0px;
+}
+#top{
+  position: fixed;
+  top: 1000px;
+  left: 700px;
+  z-index: 10;
+}
+@font-face {
+  font-family: Russo One;
+  src: url(RussoOne.ttf);
+}
+table{
+width:100%;
+cursor: url("KU.ico"), pointer;
+}
+th,td{
+border:4px ridge black;
+}
+#saytyut{
+color:green;
+font-size: 30pt;
+}
+.elfsight-app-bdcc183b-5998-475f-893f-37f8be98fd46{
+width: 90%;
+}
+.a1{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+}
+.a11{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+  float: left;
+  margin: 3px;
+}
+.a1111{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+  margin: 3px;
+}
+a{
+cursor: url("KU.ico"), pointer;
+}
+#tex{
+color:green;
+font-size:20pt;
+}
+#red{
+color: green;
+}
+#kompa{
+position: absolute;
+top:650px ;
+left:550px ;
+z-index: -1;
+animation: office 10s 4;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+#kompa1{
+width: 30%;
+}
+#kompa1:hover{
+width: 30%;
+opacity: 0.5;
+}
+iframe{
+cursor: url("KU.ico"), pointer;
+}
+span {
+cursor: url("KU.ico"), pointer;
+}
+@keyframes office {
+0% {
+left: 400px;
+top: 0px;
+z-index: -1;
+}
+25% {
+left: 1150px;
+top: 100px;
+z-index: -1;
+}
+75% {
+top:407px ;
+left:0px ;
+z-index: -1;
+}
+100% {
+top: 0px;
+left: 400px;
+z-index: -1;
+}
+}
+#kolash{
+border-radius: 10px;
+}
+#kolash:hover{
+opacity: 0.5;
+filter: grayscale(1);
+}
+#op{
+color: green;
+}
+#pm{
+color: green;
+font-size: 18pt;
+cursor: url("KU.ico"), pointer;
+}
+#reklama1{
+  position: fixed;
+  z-index: 5;
+  top: 20%;
+  left: 25%;
+  }
+  #spysokd{vertical-align: top;}
+  #reklama{
+
+    animation: rekl 4s infinite;
+  }
+  @keyframes rekl{
+0%{opacity: 0;}
+25%{opacity: 1;}
+50%{opacity: 0;}
+75%{opacity: 1;}
+100%{opacity: 0;}
+  }
+#ssylka{
+text-decoration: none;
+display: block;
+color:lightblue;
+border-radius: 7px;
+margin: 0px 100px 0px 100px;
+background-image: url(3.jpg);
+}
+audio::-webkit-media-controls-panel {
+      background-image: url(5png.jpg);
+      background-size:cover;
+      height:100%;
+    }
+    audio::-webkit-media-controls-mute-button {
+      background-color: #ff0000;
+      border-radius: 50%;
+    }
+    audio::-webkit-media-controls-play-button {
+      background-color: #0008fa;
+      border-radius: 50%;
+    }
+    audio::-webkit-media-controls-play-button:hover {
+      background-color: rgba(255,255,255, .7);
+    }
+    .nav-modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+  }
+  .nav-content {
+      background-color: #333;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 3px rgba(255,99,71,0.5);
+  }
+  .nav-content a {
+      color: #f8f9fa;
+      text-decoration: none;
+      display: block;
+      margin: 10px 0;
+      font-size: 20px;
+      transition: color 0.3s ease;
+  }
+  .nav-content a:hover {
+      color: #ff6347;
+  }
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+      color: #ff6347;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  @keyframes pr{
+    0%{background-color: aquamarine;}
+    25%{background-color: navajowhite;}
+    50%{background-color: maroon;}
+    75%{background-color: #333;}
+    100%{background-color: #aaa;}
+  }
+  #openNav {
+    background-color:navy;
+     text-align: justify;
+    text-decoration: none;
+      border-radius: 7px;
+      animation: pr 4s infinite;
+      color:white;
+      font-family: 'Russo One', sans-serif;
+cursor: url("KU.ico"), pointer;
+padding-left:400px;
+padding-right: 400px;
+            }
+  #openNav:hover {
+      background-color: #32afee;
+  }
+  #b1{
+color: red;
+  }
+  #b2{
+    color: yellow;
+  }
+  #b3{
+    color: green;
+  }
+  #b4{
+    color: purple;
+  }
+  #b5{
+    color: orange;
+  }

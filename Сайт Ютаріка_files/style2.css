@@ -1,0 +1,144 @@
+body{
+background-image: url(123.jpg);
+background-attachment: fixed;
+background-size:100%;
+font-family: 'Russo One', sans-serif;
+cursor: url("KU.ico"), pointer;
+}
+table{
+width:100%;
+border-size:0px;
+cursor: url("KU.ico"), pointer;
+}
+th,td{
+border:4px ridge black;
+}
+#saytyut{
+color:green;
+font-size: 30pt;
+}
+.a111{
+}
+.a1{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+}
+.a11{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+  float: left;
+  margin: 3px;
+}
+.a1111{
+  display: block;
+  background-color:navy;.
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:white;
+  margin: 3px;
+}
+a{
+cursor: url("KU.ico"), pointer;
+}
+#tex{
+color:green;
+font-size:20pt;
+}
+#red{
+color: green;
+}
+#kompa{
+position: absolute;
+top:650px ;
+left:550px ;
+z-index: -1;
+animation: office 10s 4;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+#kompa1{
+width: 30%;
+}
+#kompa1:hover{
+width: 30%;
+opacity: 0.5;
+}
+iframe{
+cursor: url("KU.ico"), pointer;
+}
+span {
+cursor: url("KU.ico"), pointer;
+}
+@keyframes office {
+0% {
+left: 400px;
+top: 0px;
+z-index: -1;
+}
+25% {
+left: 1150px;
+top: 100px;
+z-index: -1;
+}
+75% {
+top:407px ;
+left:0px ;
+z-index: -1;
+}
+100% {
+top: 0px;
+left: 400px;
+z-index: -1;
+}
+}
+#kolash{
+border-radius: 10px;
+}
+#kolash:hover{
+opacity: 0.5;
+filter: grayscale(1);
+}
+#op{
+color: green;
+}
+#pm{
+color: green;
+font-size: 18pt;
+cursor: url("KU.ico"), pointer;
+}
+#ssylka{
+text-decoration: none;
+display: block;
+color:lightblue;
+border-radius: 7px;
+margin: 0px 100px 0px 100px;
+background-image: url(3.jpg);
+}
+audio::-webkit-media-controls-panel {
+      background-image: url(5png.png);
+      background-size:cover;
+      height:100%;
+    }
+    audio::-webkit-media-controls-mute-button {
+      background-color: #ff0000;
+      border-radius: 50%;
+    }
+    audio::-webkit-media-controls-play-button {
+      background-color: #0008fa;
+      border-radius: 50%;
+    }
+    audio::-webkit-media-controls-play-button:hover {
+      background-color: rgba(255,255,255, .7);
+    }
